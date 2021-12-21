@@ -2,7 +2,7 @@
 
 ```bash
 docker build . -t nand2tetris:latest
-docker run -itd -v projects:/nand2tetris/projects nand2tetris:latest
+docker run -itd -v ${PWD}/projects:/nand2tetris/projects nand2tetris:latest
 ```
 
 
