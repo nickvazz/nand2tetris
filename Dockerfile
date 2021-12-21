@@ -17,6 +17,7 @@ RUN apt-get update && \
 
 COPY tools /nand2tetris/tools
 RUN chmod +x /nand2tetris/tools/*.sh
+RUN ln -s /nand2tetris/tools/*.sh /usr/local/bin
 VOLUME /projects
 
 
